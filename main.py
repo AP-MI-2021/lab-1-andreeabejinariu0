@@ -2,8 +2,18 @@
 Returneaza true daca n este prim si false daca nu.
 '''
 def is_prime(n):
-  # codul vostru aici
-  int
+  #
+  x= True
+  for i in range(2,n/2):
+    while x:
+      if n%i == 0:
+          x=False
+        else:
+          x= True
+  if x:
+    print "true"
+  else:
+    print "false"
   
   
 '''
